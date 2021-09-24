@@ -110,7 +110,6 @@ main {
     margin: 0 auto;
     padding: 180px 20px 85px 100px;
     font-family: var(--font-principal), sans-serif;
-    
 }
 
 .topo-info h1 {
@@ -287,6 +286,14 @@ footer p {
     .marca {
         height: 50px;
         font-size: 120%;
+    }
+
+    .topo-bg {
+        min-height: 400px;
+    }
+
+    .topo-info {
+        padding: 130px 20px 85px 20px;
     }
 
     footer {
