@@ -96,11 +96,12 @@ main {
 }
 
 .topo-bg {
-    background: rgba(18, 18, 18, 60%) url('/img/wallpaper.jpeg') no-repeat center center;
+    background: rgba(18, 18, 18, 70%) url('/img/wallpaper.jpeg') no-repeat center center;
     background-size: cover;
-    width: 100%;
-    height: 500px;
     background-blend-mode: hue;
+    width: 100%;
+    min-height: 500px;
+    background-attachment: fixed;
 }
 
 .topo-info {
@@ -129,7 +130,7 @@ main {
 /* Produtos */
 
 .destaques {
-    padding: 60px 20px 100px;
+    padding: 60px 20px;
 }
 
 .destaques-info {
@@ -170,13 +171,14 @@ main {
     position: relative;
     border-radius: 5px;
     box-shadow: 1px 1px 8px #18181836;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.tenis img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.tenis:hover img{
+    transform: scale(1.2);
+    transition: 1s all ease;
 }
 
 /* Cadastro */
@@ -276,6 +278,19 @@ footer p {
     .destaques-info p {
         text-align: center;
         max-width: 400px;
+    }
+
+    .desconto {
+        height: 40px;
+    }
+
+    .marca {
+        height: 50px;
+        font-size: 120%;
+    }
+
+    footer {
+        height: 50px;
     }
 }
 
