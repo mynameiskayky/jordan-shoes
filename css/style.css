@@ -354,6 +354,15 @@ footer {
 footer p {
     color: var(--bgSite);
     font: 500 1.125em var(--font-principal);
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bgSite);
+    font: 500 1.125em var(--font-principal);
+    margin-left: 8px;
 }
 
 /* Resposivvidade */
